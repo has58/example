@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/siddi/vlsi/homework/homework9
+Eand_gate
+Z0 w1555475493
+Z1 dC:/Users/siddi/vlsi/example
+Z2 8C:/Users/siddi/vlsi/example/and.vhd
+Z3 FC:/Users/siddi/vlsi/example/and.vhd
+l0
+L1
+V9fa50_@;PUWBlLnMefML=3
+!s100 []cz;CBPK?8oPKXUaKeZk3
+Z4 OP;C;10.4a;61
+32
+Z5 !s110 1555475636
+!i10b 1
+Z6 !s108 1555475636.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/example/and.vhd|
+Z8 !s107 C:/Users/siddi/vlsi/example/and.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit -O0
+Z10 tExplicit 1
+Adataflow
+DEx4 work 8 and_gate 0 22 9fa50_@;PUWBlLnMefML=3
+l6
+L5
+VnEAIH8[[Za8DX=V=b?BQT3
+!s100 17EmB;>M1>bAY@6TbB^d`3
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Pbasic_gates
+w1555475679
+R1
+8C:/Users/siddi/vlsi/example/basic_gates.vhd
+FC:/Users/siddi/vlsi/example/basic_gates.vhd
+l0
+L1
+Vgn8Q=fQ@Lf7KFgmCae65d3
+!s100 9]oa<9L6PkmMK;Iz7XzEZ1
+R4
+32
+!s110 1555475683
+!i10b 1
+!s108 1555475683.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/example/basic_gates.vhd|
+!s107 C:/Users/siddi/vlsi/example/basic_gates.vhd|
+!i113 1
+R9
+R10
+Exor_gate
+Z11 w1555475352
+R1
+Z12 8C:/Users/siddi/vlsi/example/xor.vhd
+Z13 FC:/Users/siddi/vlsi/example/xor.vhd
+l0
+L1
+V7nF:SzaQn@?M5eSndBG`L0
+!s100 0a;XF937gXH9J3[V6o8O92
+R4
+32
+R5
+!i10b 1
+R6
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/example/xor.vhd|
+Z15 !s107 C:/Users/siddi/vlsi/example/xor.vhd|
+!i113 1
+R9
+R10
+Adataflow
+DEx4 work 8 xor_gate 0 22 7nF:SzaQn@?M5eSndBG`L0
+l6
+L5
+VjUd[PXc6neOfZV[ABAll51
+!s100 B`YWMDKoQfFSHZ7G9zFAU3
+R4
+32
+R5
+!i10b 1
+R6
+R14
+R15
+!i113 1
+R9
+R10

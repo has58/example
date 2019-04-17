@@ -1,0 +1,59 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project example2
+quit
+vsim work.full_adder(structural)
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 01:00:57 on Apr 17,2019
+# Loading std.standard
+# Loading basic_gates.basic_gates
+# Loading work.full_adder(structural)
+# Loading basic_gates.xor_gate(dataflow)
+# Loading basic_gates.and_gate(dataflow)
+add wave -position insertpoint  \
+sim:/full_adder/A \
+sim:/full_adder/B \
+sim:/full_adder/C_in \
+sim:/full_adder/S \
+sim:/full_adder/P \
+sim:/full_adder/G \
+sim:/full_adder/C_out
+force -freeze a 0 0, 1 10 -repeat 20
+force -freeze b 0 0, 1 20 -repeat 40
+force -freeze c_in 0 0, 1 40 -repeat 80
+run 80
+quit -sim
+vsim work.full_adder(structural)
+# vsim 
+# Start time: 01:02:17 on Apr 17,2019
+# Loading std.standard
+# Loading basic_gates.basic_gates
+# Loading work.full_adder(structural)
+# Loading basic_gates.xor_gate(dataflow)
+# Loading basic_gates.and_gate(dataflow)
+add wave -position insertpoint  \
+sim:/full_adder/A \
+sim:/full_adder/B \
+sim:/full_adder/C_in
+force -freeze a 1 0
+force -freeze b 1 0
+force -freeze c_in 0 0
+run 20
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/siddi/vlsi/example/project using library/fulladder.do}

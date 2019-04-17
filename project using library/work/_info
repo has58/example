@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/siddi/vlsi/example/project using library
+Efull_adder
+Z1 w1555476688
+Z2 DPx11 basic_gates 11 basic_gates 0 22 gn8Q=fQ@Lf7KFgmCae65d3
+R0
+Z3 8C:/Users/siddi/vlsi/example/project using library/full_adder.vhd
+Z4 FC:/Users/siddi/vlsi/example/project using library/full_adder.vhd
+l0
+L4
+VjNKngjljU7mbfz^azmMIM1
+!s100 79BSeCHQ8VK`N5D?PPKUg2
+Z5 OP;C;10.4a;61
+32
+Z6 !s110 1555476691
+!i10b 1
+Z7 !s108 1555476691.000000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/siddi/vlsi/example/project using library/full_adder.vhd|
+Z9 !s107 C:/Users/siddi/vlsi/example/project using library/full_adder.vhd|
+!i113 1
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+Astructural
+Z12 DEx11 basic_gates 8 and_gate 0 22 9fa50_@;PUWBlLnMefML=3
+Z13 DEx11 basic_gates 8 xor_gate 0 22 7nF:SzaQn@?M5eSndBG`L0
+R2
+DEx4 work 10 full_adder 0 22 jNKngjljU7mbfz^azmMIM1
+l12
+L8
+VKZX@FCl[jE^iX]n=Y3l7Q2
+!s100 7B1XUc^S03h`@NB4jW@:@0
+R5
+32
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 1
+R10
+R11

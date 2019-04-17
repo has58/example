@@ -1,0 +1,8 @@
+package basic_gates is
+    component xor_gate is
+        port (A, B : in bit, C : out bit);
+    end component;
+    component and_gate is
+        port (A, B : in bit, C : out bit);
+    end component;
+end package;

@@ -1,0 +1,20 @@
+library basic_gates;
+use basic_gates.basic_gates.all;
+
+entity full_adder is
+    port (A, B, C_in : in bit; S, P, G, C_out : out bit);
+end entity;
+
+architecture structural of full_adder is
+    for all : xor_gate use entity basic_gates.xor_gate(dataflow);
+    for all : and_gate use entity basic_gates.and_gate(dataflow);
+    signal int1, int2, int3 : bit;
+begin
+    XOR1 : xor_gate port map (A, B, int1);
+    XOR2 : xor_gate port map (int1, C_in, S);
+    AND1 : and_gate port map (A, B, int2);
+    AND2 : and_gate port map (C_in, int1, int3);
+    C_out <= int3 or int2;
+    G <= int2;
+    P <= A or B;
+end architecture;

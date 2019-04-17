@@ -1,0 +1,18 @@
+C:/Users/siddi/vlsi/example/and.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/example/and.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} C:/Users/siddi/vlsi/example/xor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/example/xor.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} C:/Users/siddi/vlsi/example/basic_gates.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/siddi/vlsi/example/basic_gates.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Compiling package basic_gates
+
+} {} {}}
